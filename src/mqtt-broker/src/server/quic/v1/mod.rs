@@ -12,5 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-pub mod v1;
-pub mod v2;
+mod acceptor;
+pub mod server;
+pub mod stream;

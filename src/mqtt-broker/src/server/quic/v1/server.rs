@@ -21,7 +21,7 @@ use crate::server::common::connection::NetworkConnectionType;
 use crate::server::common::connection_manager::ConnectionManager;
 use crate::server::common::handler::handler_process;
 use crate::server::common::response::response_process;
-use crate::server::quic::acceptor::acceptor_process;
+use crate::server::quic::v1::acceptor::acceptor_process;
 use crate::subscribe::manager::SubscribeManager;
 use common_config::mqtt::broker_mqtt_conf;
 use delay_message::DelayMessageManager;

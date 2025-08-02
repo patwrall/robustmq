@@ -68,6 +68,8 @@ chrono.workspace = true
 strum.workspace = true
 strum_macros.workspace = true
 async-stream.workspace = true
+pem = "3.0.5"
+quiche = "0.24.4"
 
 [dev-dependencies]
 # test

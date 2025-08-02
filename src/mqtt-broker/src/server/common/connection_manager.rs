@@ -32,7 +32,7 @@ use crate::common::types::ResultMqttBrokerError;
 use crate::handler::cache::CacheManager;
 use crate::handler::error::MqttBrokerError;
 use crate::observability::metrics::packets::record_sent_metrics;
-use crate::server::quic::stream::QuicFramedWriteStream;
+use crate::server::quic::v1::stream::QuicFramedWriteStream;
 
 pub struct ConnectionManager {
     pub connections: DashMap<u64, NetworkConnection>,
